@@ -9,9 +9,13 @@
 	top: 0;
 	z-index: 3;
 	transition: all 1s ease;
+	&::-webkit-scrollbar{
+		display: none;
+	}
+
 
 	.wrapper{
-		padding: 10px 30px;
+		padding: 0px 30px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
