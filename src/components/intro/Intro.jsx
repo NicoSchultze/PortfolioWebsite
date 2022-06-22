@@ -2,23 +2,29 @@ import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
+let isLoading = true;
 export default function Intro() {
-  const textRef = useRef();
+  const textRef = useRef(null);
 
   useEffect(() => {
-    init(textRef.current, {
-      showCursor: true,
-      backDelay: 1500,
-      backSpeed:60,
-      strings: ["Software Developer", "Data Scientist"],
-    });
+    if (textRef.current && isLoading) {
+      isLoading = false;
+
+      init(textRef.current, {
+        showCursor: true,
+        backDelay: 1500,
+        backSpeed: 60,
+
+        strings: ["Software Developer", "Data Scientist", "Master's Graduate"]
+      });
+    }
   }, []);
 
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/nico.jpeg" alt="" />
         </div>
       </div>
       <div className="right">

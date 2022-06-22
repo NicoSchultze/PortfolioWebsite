@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 
   .heading{
     display: flex;
@@ -60,6 +61,7 @@
       justify-content: center;
 
       .item {
+        overflow: hidden;
         width: 900px;
         height: 100%;
         background-color: white;
