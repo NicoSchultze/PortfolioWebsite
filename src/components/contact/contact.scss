@@ -17,6 +17,7 @@
     }
   }
   .right {
+    overflow: hidden;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -25,9 +26,11 @@
 
     h2 {
       font-size: 30px;
+      overflow: hidden;
     }
 
     form {
+      overflow: hidden;
       width: 70%;
       height: 70%;
       display: flex;
@@ -61,6 +64,7 @@
       }
 
       button {
+        overflow: hidden;
         width: 200px;
         height: 50px;
         color: white;

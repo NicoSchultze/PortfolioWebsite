@@ -10,7 +10,7 @@
     font-size: 75px;
 
     @include mobile{
-      font-size: 20px;
+      font-size: 30px;
     }
   }
 
@@ -54,8 +54,8 @@
       cursor: pointer;
 
       @include mobile{
-        width: 200px;
-        height: 110px;
+        width: 300px;
+        height: 150px;
       }
 
       h3 {
@@ -74,7 +74,7 @@
 
       &:hover {
         background-color: $mainColor;
-		text-align: center;
+		    text-align: center;
         img {
           opacity: 0.3;
           z-index: 0;

@@ -7,6 +7,20 @@
   justify-content: center;
   position: relative;
 
+  .heading{
+    display: flex;
+    position: relative;
+    top: -35%;
+    h1 {
+      font-size: 75px;
+      color: white;
+  
+      @include mobile{
+        font-size: 40px;
+      }
+  }
+  }
+
   .arrow {
     height: 50px;
     position: absolute;
