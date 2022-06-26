@@ -15,7 +15,7 @@ export default function Intro() {
         backDelay: 1500,
         backSpeed: 60,
 
-        strings: ["Software Developer", "Data Scientist", "Master's Graduate"]
+        strings: ["Software Engineer", "Data Scientist", "Master's Graduate"]
       });
     }
   }, []);
