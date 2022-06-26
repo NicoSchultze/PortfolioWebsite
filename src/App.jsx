@@ -17,8 +17,8 @@ function App() {
 		<div className="sections">
 			<Intro/>
 			<About/>
-			<Portfolio/>
 			<Works/>
+			<Portfolio/>
 			<Contact/>
 		</div>
 	</div>

@@ -35,7 +35,7 @@ export default function Intro() {
             Aspiring <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#about">
           <img src="assets/down.png" alt="" />
         </a>
       </div>

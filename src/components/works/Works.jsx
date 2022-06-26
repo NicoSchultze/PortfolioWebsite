@@ -9,27 +9,26 @@ export default function Works() {
       icon: "./assets/mobile.png",
       title: "Data Science",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "A core interest of me is data science. The art of capturing, maintaining, processing, analyzing and communicating data is a beautiful and powerful craft. I mainly focus on computer vision and reinforcement learning, but I am open to all concepts.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cccblog.org%2Fwp-content%2Fuploads%2F2011%2F03%2Fscience-data.jpg&f=1&nofb=1",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "Web Development",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Another big part of my CS passion is web development. I have found an interest in designing and developing websites as well as smaller projects. I have experience with JavaScript, NodeJS and ReactJS.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: "Mobile Development",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "Next to data science and web development I am getting started with mobile development, mostly using kotlin. I am still at the very start of my road, but I am enjoying the development of mobile applications.",
+      img:"https://www.freepngimg.com/download/web_development/76841-development-web-mobile-app-hand-cell-phone.png"
     },
   ];
 
@@ -63,7 +62,8 @@ export default function Works() {
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
+
                   alt=""
                 />
               </div>
